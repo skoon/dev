@@ -1,0 +1,9 @@
+<h3>Abilities</h3>
+<div>
+Charisma
+Combat
+Magic
+Sanctity
+Scouting
+Thievery
+</div>

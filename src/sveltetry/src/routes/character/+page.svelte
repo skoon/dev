@@ -1,9 +1,9 @@
 <script>
-	import Abilities from "./+abilities.svelte";
-    import Book from "./+book.svelte";
-	import { svelte } from "@sveltejs/vite-plugin-svelte";
+	import Abilities from "./abilities.svelte";
+    import Book from "./book.svelte";
 
     let Name = "Joe Schmoe";
+    let Profession = "";
     let God = "";
     let Rank = "";
     let Defense = "";

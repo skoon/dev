@@ -5,5 +5,13 @@ export default defineConfig({
 	plugins: [sveltekit()],
 	test: {
 		include: ['src/**/*.{test,spec}.{js,ts}']
-	}
+	},
+	optimizeDeps: {
+		esbuildOptions: {
+		  target: 'esnext'
+		}
+	  },
+	  build: {
+		target: 'esnext'
+	  }
 });

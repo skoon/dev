@@ -1,18 +1,14 @@
 <script>
 	import Abilities from "./abilities.svelte";
     import Book from "./book.svelte";
+    import {character} from "./character.js";
 
-    let Name = "Joe Schmoe";
-    let Profession = "";
-    let God = "";
-    let Rank = "";
-    let Defense = "";
 </script>
 
 <h1>Character Sheet</h1>
 <div>
     <fieldset>
-        <legend>Name: {Name}</legend>
+        <legend>Name: {character.Name}</legend>
         <label for="profession">Profession:</label><input type="text" name="profession" value={Profession}>
         <label for="god">God:</label><input type="text" name="god" value={God}>
         <label for="rank">Rank:</label><input type="text" name="rank" value={Rank}>
